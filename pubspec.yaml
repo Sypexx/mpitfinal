@@ -9,13 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.3
+  firebase_database: ^6.1.2
+  firebase_core: ^1.1.1
+  scrollable_list_tabview: ^0.1.6
 
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 flutter:
   assets:

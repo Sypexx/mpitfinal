@@ -1,5 +1,7 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
+import 'package:mpitfinal/mainapp/menupage.dart';
+import 'package:mpitfinal/test/test.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -112,7 +114,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Text('facebook',
                           style: TextStyle(color: Colors.white, fontSize: 20)),
                       color: Color.fromRGBO(54, 78, 155, 1),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomePage()),
+                        );
+                      },
                     )),
                 Container(
                     height: MediaQuery.of(context).size.width * 0.1,
@@ -127,7 +134,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Text('google',
                           style: TextStyle(color: Colors.white, fontSize: 20)),
                       color: Color.fromRGBO(54, 78, 155, 1),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomePage()),
+                        );
+                      },
                     )),
               ],
             ))

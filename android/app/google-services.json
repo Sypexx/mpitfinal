@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "417126367720",
+    "firebase_url": "https://mpithack-default-rtdb.firebaseio.com",
+    "project_id": "mpithack",
+    "storage_bucket": "mpithack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417126367720:android:c28dbd617ed9bef191a45d",
+        "android_client_info": {
+          "package_name": "com.example.mpitfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417126367720-0rs9o340vg3vnoa16m878snvmquq05ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMeZWa3TKtvRw_lpI9b_6S0QOXaBkC2rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417126367720-0rs9o340vg3vnoa16m878snvmquq05ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
