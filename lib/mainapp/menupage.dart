@@ -58,27 +58,36 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.school),
+            icon: Icon(
+              Icons.school,
+            ),
             label: 'Курсы',
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.white,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.list),
+            icon: Icon(
+              Icons.list,
+            ),
             label: 'Вакансии',
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.white,
           ),
           BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.profile_circled),
+            icon: Icon(
+              CupertinoIcons.profile_circled,
+            ),
             label: 'Профиль',
-            backgroundColor: Colors.purple,
+            backgroundColor: Colors.white,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
+            icon: Icon(
+              Icons.settings,
+            ),
             label: 'Настройки',
-            backgroundColor: Colors.pink,
+            backgroundColor: Colors.white,
           ),
         ],
         currentIndex: _selectedIndex,
+        unselectedItemColor: Colors.black,
         selectedItemColor: Color.fromRGBO(31, 118, 186, 1),
         onTap: _onItemTapped,
       ),

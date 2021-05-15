@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mpitfinal/widgets/Resume.dart';
+import 'package:mpitfinal/widgets/signal.dart';
 
 class Profile extends StatefulWidget {
   @override
@@ -43,7 +44,7 @@ class _ProfileState extends State<Profile> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Resume()),
+                      MaterialPageRoute(builder: (context) => Signal()),
                     );
                   },
                   child: Text(
