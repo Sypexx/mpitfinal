@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 2;
   PageController _pageController;
   void _onItemTapped(int index) {
     setState(() {
@@ -42,12 +42,13 @@ class _HomePageState extends State<HomePage> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(50),
         child: AppBar(
+          actions: [Icon(Icons.notifications)],
+          backgroundColor: Colors.white,
           centerTitle: true,
-          backgroundColor: Colors.red,
+          iconTheme: IconThemeData(color: Colors.black, size: 30),
           elevation: 0.0,
         ),
       ),
-      //body: tabs[_selectedIndex],
       body: PageView(
         controller: _pageController,
         onPageChanged: (index) {
